@@ -58,7 +58,7 @@ const UserSearch: FC = () => {
             </Button>
           </Box>
         </Box>
-        <Accordion gap="1.5rem">
+        <Accordion gap="1.5rem" maxW="sm">
           {users.map((user) => (
             <UserRepository user={user} />
           ))}

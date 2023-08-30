@@ -19,7 +19,7 @@ function App() {
           alignItems="center"
           mt="36"
         >
-          <Card size="lg" p="4">
+          <Card size="lg">
             <CardHeader>
               <Heading size="md">Search Github Users</Heading>
             </CardHeader>
